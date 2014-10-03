@@ -1,0 +1,1 @@
+SELECT title, first_name, last_name FROM movies INNER JOIN directors ON movies.director_id = directors.id WHERE last_name = 'Cameron';
